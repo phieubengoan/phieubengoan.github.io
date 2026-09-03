@@ -46,11 +46,11 @@ document.querySelectorAll('.nav-link').forEach(link => {
 const CERTIFICATES = [
   { title: "Phiếu bé ngoan đầu tiên", meta: "Phiếu đầu tiên", src: "PhieuBeNgoan/pbn (1).png", special: true  },
   { title: "Phiếu bé ngoan 1", meta: "Tháng 1 - 2026", src: "PhieuBeNgoan/pbn (2).png" },
-  { title: "Phiếu bé ngoan 2", meta: "Tháng 2 - 2026", src: "PhieuBeNgoan/pbn (3).png", special: true },
+  { title: "Phiếu bé ngoan 2", meta: "Tháng 2 - 2026", src: "PhieuBeNgoan/pbn (3).png"},
   { title: "Phiếu bé ngoan 3", meta: "Tháng 3 - 2026", src: "PhieuBeNgoan/pbn (4).png" },
   { title: "Phiếu bé ngoan 4", meta: "Tháng 4 - 2026", src: "PhieuBeNgoan/pbn (5).png" },
   { title: "Phiếu bé ngoan 5", meta: "Tháng 5 - 2026", src: "PhieuBeNgoan/pbn (6).png" },
-  { title: "Phiếu bé ngoan 6", meta: "Tháng 6 - 2026", src: "PhieuBeNgoan/pbn (7).png", special: true },
+  { title: "Phiếu bé ngoan 6", meta: "Tháng 6 - 2026", src: "PhieuBeNgoan/pbn (7).png"},
   { title: "Phiếu bé ngoan 7", meta: "Tháng 7 - 2026", src: "PhieuBeNgoan/pbn (8).png" },
   { title: "Phiếu bé ngoan 8", meta: "Tháng 8 - 2026", src: "PhieuBeNgoan/pbn (9).png" },
   { title: "Phiếu bé ngoan 9", meta: "Tháng 9 - 2026", src: "PhieuBeNgoan/pbn (10).png" },
