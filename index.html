@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phòng Trưng Bày Bằng Khen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="30" height="30">
+            <path d="M20 3 L34 10 V20 C34 29 28 34.5 20 37 C12 34.5 6 29 6 20 V10 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M20 10 L23.5 17 L31 18 L25.5 23 L27 30.5 L20 26.7 L13 30.5 L14.5 23 L9 18 L16.5 17 Z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">Bằng Khen<em>Của Trúc</em></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="#home" class="nav-link is-active">Home</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Mở menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-scrim" id="nav-scrim"></div>
+
+  <main>
+
+    <section class="hero" id="home">
+      <p class="hero-kicker">Lưu giữ những dấu mốc</p>
+      <h1 class="hero-title">Mỗi phiếu<br>là một sự công nhận, lời khen dành cho Chup Chup.</h1>
+      <p class="hero-sub">Nơi lưu trữ và trưng bày toàn bộ phiếu bé ngoan theo thời gian - kéo xuống để xem toàn bộ bộ sưu tập.</p>
+      <a href="#gallery" class="hero-cta">Xem bộ sưu tập</a>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="gallery-heading">
+        <h2>Bộ sưu tập</h2>
+        <p id="gallery-count" class="gallery-count"></p>
+      </div>
+
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- các thẻ bằng khen sẽ được js chèn vào đây -->
+      </div>
+
+      <p class="gallery-status" id="gallery-status">Đang tải thêm…</p>
+      <div class="gallery-sentinel" id="gallery-sentinel"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner">
+        <span class="about-number">01</span>
+        <div>
+          <h2>Về nơi này</h2>
+          <p>Đây là một góc riêng để lưu lại những phiếu bé ngoan, được sắp xếp gọn gàng, dễ xem lại bất cứ lúc nào, trên mọi thiết bị.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Bằng Khen Của Tôi</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Đóng">×</button>
+    <figure class="lightbox-frame">
+      <img id="lightbox-img" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
