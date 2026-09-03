@@ -1,0 +1,9 @@
+# Hệ điều hành Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Hệ điều hành Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
