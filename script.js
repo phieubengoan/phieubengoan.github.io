@@ -55,6 +55,7 @@ const CERTIFICATES = [
   { title: "Phiếu bé ngoan 8", meta: "Tháng 8 - 2026", src: "PhieuBeNgoan/pbn (9).png" },
   { title: "Phiếu bé ngoan 9", meta: "Tháng 9 - 2026", src: "PhieuBeNgoan/pbn (10).png" },
   { title: "Phiếu bé ngoan 10", meta: "Tháng 10 - 2026", src: "PhieuBeNgoan/pbn (11).png" },
+  { title: "Lời chúc 20/10", meta: "20/10 - 2026", src: "PhieuBeNgoan/pbn (12).png", special: true },
 ];
 
 const PAGE_SIZE = 6;
